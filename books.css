@@ -1,0 +1,91 @@
+@import url("http://www.dafont.com/bohemian-typewriter.font");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Sansita');
+
+body {
+    font-family: "Bohemian Typewriter"  
+    
+}
+
+header {
+    background-color: #58887E;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+#statusbar {
+    background-color: gainsboro;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+span {
+    font-weight: bold;
+    font-family: "Verdana";
+    font-size: 17px;
+}
+
+#left {
+   
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    position: inherit;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-weight: bold;     
+    color: black;
+    
+}
+
+output {
+    background-color: white;
+    padding: 5px;
+}
+
+/*Knappar (hämtad från buttonmaker)*/
+
+button {
+   border-top: 1px solid #735d29;
+   background: #c4ac85;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6e5f32), to(#c4ac85));
+   background: -webkit-linear-gradient(top, #6e5f32, #c4ac85);
+   background: -moz-linear-gradient(top, #6e5f32, #c4ac85);
+   background: -ms-linear-gradient(top, #6e5f32, #c4ac85);
+   background: -o-linear-gradient(top, #6e5f32, #c4ac85);
+   padding: 4.5px 9px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: 'Bohemian Typewriter', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+    border: none;
+   }
+button:hover {
+   border-top-color: #058888;
+   background: #058888;
+   color: #ccc;
+   }
+button:active {
+   border-top-color: #000000;
+   background: #000000;
+   }
